@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>練習</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- ↓↓↓↓↓↓↓↓↓↓↓↓↓↓ ここから下に、ブラウザに表示したい内容を記述する ↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+    <div id="app" class="wrapper">
+      <h1 class="title">メモ帳というかTodoリスト</h1>
+      <div class="task-add-panel">
+        <input type="text" id="todoText" class="input-field1" />
+        <select id="priority" class="input-field2">
+          <option value="高">高</option>
+          <option value="中">中</option>
+          <option value="低">低</option>
+        </select>
+        <button id="addTodoBtn" class="btn">追加</button>
+        <button id="deleteTodoBtn" class="btn btn-delete">全削除</button>
+      </div>
+
+      <div class="task-show-panel">
+        <ul id="todoList"></ul>
+      </div>
+    </div>
+
+    <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑ ここから上に、ブラウザに表示したい内容を記述する ↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

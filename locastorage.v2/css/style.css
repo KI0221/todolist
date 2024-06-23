@@ -1,0 +1,68 @@
+.wrapper {
+  padding: 80px;
+  max-width: 400px;
+  margin-inline: auto;
+}
+
+.title {
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.task-add-panel {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.task-show-panel {
+  margin-bottom: 24px;
+  border-top: solid 1px #efefef;
+}
+.task-show-panel li {
+  padding: 12px;
+  border-bottom: solid 1px #efefef;
+}
+
+.input-field1 {
+  width: 300px;
+  padding: 6px 8px;
+}
+
+.input-field2 {
+  width: 100px;
+  padding: 6px 8px;
+}
+
+.btn {
+  width: 100px;
+  margin-left: 16px;
+  padding: 6px 8px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  appearance: none;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.priority-high {
+  color: red;
+}
+
+.priority-medium {
+  color: orange;
+}
+
+.priority-low {
+  color: green;
+}
